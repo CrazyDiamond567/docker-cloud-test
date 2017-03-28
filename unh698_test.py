@@ -17,4 +17,4 @@ class FlaskrTestCase(unittest.TestCase):
         assert b'UNH698 Website' in rv.data
 
 if __name__ == '__main__':
-unittest.main()
+    unittest.main()
