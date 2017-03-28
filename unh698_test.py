@@ -2,7 +2,6 @@ import unittest
 
 import unh698
 
-
 class FlaskrTestCase(unittest.TestCase):
 
     def setUp(self):
@@ -16,7 +15,6 @@ class FlaskrTestCase(unittest.TestCase):
         rv = self.app.get('/')
         # Chech that the page contians the desired phrase
         assert b'UNH698 Website' in rv.data
-
 
 if __name__ == '__main__':
 unittest.main()
